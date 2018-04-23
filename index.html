@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<!-- //font -->
+<script src="js/jquery-2.2.3.min.js"></script>
+</head>
+<body>
+	<!-- w3-banner -->
+	<div class="w3-banner jarallax">
+		<div class="wthree-different-dot">
+			<div class="w3layouts-header-top">
+				<div class="container">
+					<div class="w3-header-top-grids">
+						<div class="w3-header-top-left">
+							<p><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +1 234 567 8901</p>
+						</div>
+						<div class="w3-header-top-right">
+							<div class="agileinfo-social-grids">
+								<ul>
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-rss"></i></a></li>
+									<li><a href="#"><i class="fa fa-vk"></i></a></li>
+								</ul>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<div class="head">
+				<div class="container">
+					<div class="navbar-top">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+								 <div class="navbar-brand logo ">
+									<h1><a href="index.html">SIAC Forum</a></h1>
+								</div>
+
+							</div>
+
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							 <ul class="nav navbar-nav link-effect-4">
+								<li class="active first-list"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span data-letters="Pages">Pages</span><span class="caret"></span></a>
+									<ul class="dropdown-menu"> 
+										<li><a href="icons.html">Web Icons</a></li>
+										<li><a href="codes.html">Short Codes</a></li>
+									</ul>
+								</li>   
+								<li><a href="contact.html">Contact</a></li>
+							  </ul>
+							</div><!-- /.navbar-collapse -->
+						</div>
+				</div>
+			</div>
+			<!-- banner -->
+			<div class="banner">
+				<div class="container">
+					<div class="slider">
+						
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+								// You can also use "$(window).load(function() {"
+								$(function () {
+								// Slideshow 4
+									$("#slider3").responsiveSlides({
+										auto: true,
+										pager: true,
+										nav: true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+											$('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+											$('.events').append("<li>after event fired.</li>");
+										}
+									 });				
+								});
+						</script>
+						<div  id="top" class="callbacks_container-wrap">
+							<ul class="rslides" id="slider3">
+								<li>
+									<div class="slider-info">
+										<h3>上海国际艺术城论坛</h3>
+										<h4>SIAC(Shanghai International Art City)Forum</h4>
+										<p >——让城市锈带重焕艺彩 Urban Transformation Through Art</p>
+										<div class="more-button">
+											<!--<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>-->
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //banner -->
+		</div>
+	</div>
+	<!-- //w3-banner -->
+	<!-- modal
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title">Stock Industry</h4>
+					</div> 
+					<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/g2.jpg" alt="" />
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	modal -->
+	
+	<!--主旨-->
+	<div class="homecontent">
+		<div class="container">   
+			<h2 class="agileits-title">论坛主旨</h2>
+			<h4 class="agileits-title">让城市锈带重焕艺彩</h4>
+			<h5 class="agileits-title">Urban Transformation Through Art</h5>
+			<p class="agileits-title">为对接上海2040城市副中心建设、吴淞工业区转型发展的规划需求，上海美术学院与上海市教委、宝武集团、宝山区政府、上海大学合作共建上海（吴淞）国际艺术城（以下简称：艺术城），按照新起点、高质量、高水准、与国际接轨的原则和目标，上海大学与宝武集团旨在共同打造与上海城市地位相匹配的上海美术学院，以及具有未来领先意义的艺术城。宝钢作为上海、乃至中国工业发展的重要历史见证和杰出贡献者，其全面改建将成为工业转型的重要模型，也将向政府展现企业革新和产业调整更多的可能性。“ 工业遗存 ”和“ 时代过剩 ”是当前产业发展及当代艺术中最热议的话题之一，此次论坛兼顾这两者，并藉由“ 上海国际艺术城 ”项目，将艺术、工业、城市、可持续、转型等主题嫁接在一起，且覆盖艺术教育、产业业态、空间形态、社会治理、智慧城市等多领域，在学术上具有探讨的深度和广度。
+</p>
+		</div>
+	</div>
+	<!--主旨-->
+	<!-- services -->
+	<div class="services">
+		<div class="container">   
+			<h2 class="agileits-title">四大主题</h2>
+			<h4 class="agileits-title">—— 工业遗产的复兴 ——</h4>
+			<p class="agileits-title">——  都市美学：问城市什么是最重要的！ ——</p>
+			<p class="agileits-title">——  过剩时期的艺术  ——</p>
+			<p class="agileits-title">——  文化、资本和吸引观众  ——</p>
+			<div class="w3-services-grids">
+				<div class="col-md-3 col-xs-6 w3l-services-grid">
+					<div class="w3l-services-text" data-toggle="modal" data-target="#myModal">
+						<div class="w3ls-services-img">
+							<i class="fa fa-comment-o" aria-hidden="true"></i>
+						</div>
+						<div class="agileits-services-info">
+							<h4>振兴</h4>
+							<p>工业遗存是城市发展的见证与印记，在新的时代背景和发展要求下，工业遗存如何转型发展，重焕活力，这不仅是一个企业的……</p>
+							<div class="menucolorc"><a href="#">See more</a></div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-3 col-xs-6 w3l-services-grid">
+					<div class="w3l-services-text" data-toggle="modal" data-target="#myModal1">
+						<div class="w3ls-services-img">
+							<i class="fa fa-heart-o" aria-hidden="true"></i>
+						</div>
+						<div class="agileits-services-info">
+							<h4>美学</h4>
+							<p>城市美学包括了一个城市整体形象的外化体现及其内在成因的理致，其中的每个元素成为其色彩光谱的一个纬度，亦折射出这……</p>
+							<div class="menucolorc"><a href="#" >See more</a></div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-3 col-xs-6 w3l-services-grid">
+					<div class="w3l-services-text" data-toggle="modal" data-target="#myModal2">
+						<div class="w3ls-services-img">
+							<i class="fa fa-clone" aria-hidden="true"></i>
+						</div>
+						<div class="agileits-services-info">
+							<h4>过剩</h4>
+							<p>“过剩”日益成为全球化环境中的一个突出矛盾。由此，“选择”被赋予了更大的权利;选择的主体、对象、准则和路径等成为艺术……</p>
+							<div class="menucolorc"><a href="#" >See more</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6 w3l-services-grid">
+					<div class="w3l-services-text" data-toggle="modal" data-target="#myModal3">
+						<div class="w3ls-services-img">
+							<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+						</div>
+						<div class="agileits-services-info">
+							<h4>产业</h4>
+							<p>艺术、产业、资本和观众，在双向多方的相互相应作用之中，因时间、程度、作用方式的差异而展现出多层次的空间，为不同主……</p>
+							<div class="menucolorc"><a href="#" >See more</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+	</div>
+
+	<!-- //services -->
+	<!-- faq -->
+	<div class="stats services news-w3layouts jarallax"> 
+		<div class="container">
+			<h2 class="agileits-title">主要议程</h2>
+			<h4 class="agileits-title">Agenda</h4>  
+			<div class="stats-agileinfo agileits-w3layouts">
+				<div class="faq-info">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" >
+                        <a href="#testi" aria-controls="testi" role="tab" data-toggle="tab">5月09日</a>
+                    </li>
+                    <li role="presentation" >
+                        <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">5月10日</a>
+                    </li>
+                    <li role="presentation" class="active">
+                        <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">5月11日</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab4" aria-controls="messages" role="tab" data-toggle="tab">5月12日</a>
+					</li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane" id="testi">
+                        <div class="faqmain-info">
+                            <div class="faq-subinfo col-md-12">
+                               <ul class="col-md-12  latest-grid">
+                               		全天；所有参会嘉宾抵沪 19:00  欢迎晚宴
+								</ul>
+                                <div class="clearfix"> </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="profile">
+                        <div class="faqmain-info ">
+                            <div class="faq-subinfo col-md-12"> 
+                                <ul class="col-md-12  latest-grid">
+                               		<li>10:00-12:00  参观宝钢厂区工业遗存</li>
+									<li>12:00-13:30  午餐</li>
+									<li>13:30-14:00  宝武集团介绍宝钢工业遗存现状及未来发展规划</li>
+									<li>14:00-14:30  上海美术学院介绍未来发展规划</li>
+									<li>14:30-14:45  休息</li>
+									<li>14:45-17:00  嘉宾提问、交流</li>
+									<li>17:00-18:00  前往市区</li>
+									<li>18:00-20:00  晚餐</li>
+								</ul>
+                                <div class="clearfix"> </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane active" id="messages">
+                        <div class="faqmain-info">
+                            <div class="faq-subinfo col-md-12">
+                                <ul class="col-md-6 myleft latest-grid">
+                                    	<li><strong>论坛开幕仪式</strong></li>
+										<li>9:00 观众、嘉宾、领导等入场就坐</li></li>
+										<li>9:25 播放宣传视频
+										<li>9:30-9:35  大会主持人介绍活动背景、介绍出席领导</li>
+										<li>9:35-9:40  市领导发言</li>
+										<li>9:40-9:45  中国工业遗产联盟领导致辞</li>
+										<li>9:45-9:50  宝武集团领导致辞</li>
+										<li>9:50-9:55  上海美术学院领导致辞</li></br>
+                              		
+                               			<li><strong>上午场10:00-12:30 振兴——工业遗存的呐喊</strong></li>
+										<li>
+										<table border="0">
+											<tr>
+  											<th rowspan="2" valign="top">10:00-10:10&nbsp;</th>
+  												<td>主持介绍嘉宾、做主题阐述</td>
+											</tr>
+											<tr>
+  												<td>主持：张永和（建筑师，同济大学教授，前麻省理工建筑学院院长）</td>
+											</tr>
+										</table>
+										</li>
+										<li>10:10-10:40 主旨发言：Frances Morris(弗朗西丝·莫里斯)（泰特现代美术馆馆长）</li>
+										<li>10:40-11:00 嘉宾发言：Eva Franch Gilabert(伊娃·弗朗斯·吉尔伯特)（艺术建筑临街屋中心”馆长）</li>
+										<li>11:00-11:10 休息</li>
+										<li>11:10-11:30 嘉宾发言：Betty Ng(建筑师，OMA，香港大学教授)</li>
+										<li>11:30-11:50 嘉宾发言：Italo Rota(伊塔洛·罗塔)（城市规划师，米兰新美术学院教授）</li>
+										<li>11:50-12:30 嘉宾讨论与观众互动提问</li>
+                               			
+                                		</br>
+
+
+                                </ul>
+                                <ul class="col-md-6 myright latest-grid">
+                            		<li><strong>下午场 14:00-16:30 美学——问城市就知道</strong></li>
+										<li>
+           								<table border="0">
+											<tr>
+  											<th rowspan="2" valign="top">14:00-14:10&nbsp;</th>
+  												<td>主持介绍嘉宾、做主题阐述</td>
+											</tr>
+											<tr>
+  												<td>主持：苏丹（清华大学教授，中国工业遗产联盟副理事长）</td>
+											</tr>
+											</table>
+            						    </li>
+										<li>14:10-14:40 主旨发言：（待定）</li>
+										<li>14:40-15:00 嘉宾发言：Riyas Komu（瑞亚斯·柯姆）（印度科钦穆吉里斯双年展艺术总监）</li>
+										<li>15:00-15:10 休息</li>
+										<li>15:10-15:30 Daniel Moquay（丹尼尔·莫凯）（伊夫·克莱因档案总监）</li>
+										<li>15:30-15:50 龚彦（上海当代艺术博物馆馆长）</li>
+										<li>15:50-16:30 嘉宾讨论与观众互动提问</li>
+										<li><strong>17:00 离开现场</strong></li>
+										<li><strong>18:30 嘉宾用晚餐</strong></li>
+                                </ul>
+                                <div class="clearfix"> </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="tab4">
+                        <div class="faqmain-info">
+                            <div class="faq-subinfo col-md-12">
+                                <ul class="col-md-6 myleft latest-grid">
+              						<li><strong>上午场 10:00-12:30过剩——艺术面临的新时代</strong></li>
+									<li>10:00-10:10 主持介绍嘉宾、做主题阐述
+            						主持：</li>
+									<li>10:10-10:40 主旨发言：Marta Kuzma(马尔塔·库兹玛)（耶鲁大学艺术学院院长）</li>
+									<li>10:40-11:00 嘉宾发言：杭间（中国美术学院教授）</li>
+									<li>11:00-11:10 休息</li>
+									<li>11:10-11:30 嘉宾发言：Michael Bhaskar(迈克尔·巴斯卡尔)（牛津大学研究员）</li>
+									<li>11:30-11:50 嘉宾发言：朱青生（北京大学教授）/ 伍江（同济大学常务副校长）</li>
+									<li>11:50-12:30 嘉宾讨论与观众互动提问</li></br>
+                              	
+                              		<li><strong>下午场14:00-17:00 产业——从艺术到观众</strong></li>
+									<li>
+           							<table border="0">
+											<tr>
+  											<th rowspan="2" valign="top">14:00-14:10&nbsp;</th>
+  												<td>主持介绍嘉宾、做主题阐述</td>
+											</tr>
+											<tr>
+  												<td>主持：Karen Smith   凯伦·史密斯(OCAT西安馆执行馆长)</td>
+											</tr>
+									</table>
+									</li>
+									<li>14:10-14:40 主旨发言：Jean De Loisy(让·德·卢瓦奇) (巴黎东京宫馆长)</li>
+									<li>14:40-15:00 嘉宾发言：Hans Ulrich Obrist(汉斯-乌尔里希·奥布里斯特)（蛇形画廊艺术总监）</li>
+									<li>15:00-15:10 休息</li>
+									<li>15:10-15:30 嘉宾发言：孟添（上海经济管理中心副主任）</li>
+									<li>15:30-15:50 嘉宾发言：Adeline Ooi（黄雅君）（香港巴塞尔艺术展亚洲总监）</li>
+									<li>15:50-16:30 嘉宾讨论与观众互动提问</li>
+                              		</br>
+                               	
+                               		
+                                </ul>
+                                <ul class="col-md-6 myright latest-grid">
+									<li><strong>论坛闭幕仪式</strong></li>
+									<li>16:30-16:40 大会主持人做总结发言（分享观众的互动留言）</li>
+									<li>16:40-17:00 上海美术学院宣言</li>
+									<li>17:30 离开现场</li>
+									<li>19:00 嘉宾用晚餐</li>
+
+
+                                </ul>
+                                <div class="clearfix"> </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+				<div class="clearfix"></div>
+			</div> 
+			<!-- Progressive-Effects-Animation-JavaScript -->  
+			<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+			<!-- //Progressive-Effects-Animation-JavaScript -->
+		</div>
+	</div>
+	<!-- //Stats -->
+
+	<!-- testimonial -->
+	<div class="testimonial agileits-w3layouts">
+		<div class="container"> 
+			<h2 class="agileits-title">嘉宾介绍</h2>
+			<h4 class="agileits-title">Guest Profile</h4> 
+			<div class="sap_tabs">	
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">  
+					<ul class="resp-tabs-list">
+						<li class="resp-tab-item"><img src="images/1.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/2.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/3.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+						<li class="resp-tab-item"><img src="images/4.png" alt=""/></li>
+			
+					</ul>
+					<div class="resp-tabs-container">
+						<div class="tab-1 resp-tab-content">				
+							<div class="view view-first">
+							<p><strong>张永和 （建筑师，同济大学教授，前麻省理工建筑学院院长）</strong></p> 
+								<p>张永和先生于1956年出生于中国北京，1977年考入原南京工学院(现东南大学）建筑系；1984年获得伯克利建筑硕士学位。美国注册建筑师；美国建筑师协会会员；非常建筑创始人，主持建筑师；前美国麻省理工学院教授；同济大学教授。主要作品：长城脚下的公社；分成两半的房子；山语间别墅；席殊书屋；贝森新文化空间；润唐山庄集合住宅；远洋艺术中心；北京大学（青岛）国际学术中心；北京大学青岛会议中心；西南生物工程产业化中间试验基地。基本著作：1997年出版<非常建筑>作品专集；2000年出版《张永和/非常建筑工作室专集1、2》等。</p>
+								
+									<p>Yungho Chang was born in 1956 in Beijing, China. Admitted to the Department of Architecture, former Nanjing Institute of Technology (now Southeast University) 
+in 1977; Master's degree in Architecture, Berkeley, 1984. American registered architect; member, American Association of Architects; Founder of architecture, host
+architect; former MIT professor; professor at Tongji university. Main works: the commune at the foot of the Great Wall; houses divided into two parts; 
+mountain-language villa; Shishi bookshop; Besson new cultural space; Runtang Village Assembly House; Ocean Art Center; Peking University (Qingdao) International 
+academic Center; Peking University Qingdao Convention Center; Southwest China Intermediate Experimental Base of Bio-engineering industrialization. 
+Basic works: special works of "extraordinary Architecture" published in 1997, monograph of "Yungho Chang / extraordinary Architecture Studio" 1 / 2 published in 2000;</p>
+
+								
+								<h5>Yungho Chang</h5>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="view view-first"> 
+								<p><strong>弗朗西丝·莫里斯 （泰特现代美术馆馆长）</strong></p> 
+								<p>弗朗西丝·莫瑞斯女士毕业于英国剑桥大学，是战后欧洲和国际当代艺术领域的专家。1987年加入泰特美术馆，2000至2006年担任展览主管，2006年起至今任国际艺术收藏主管。任职期间，莫瑞斯组织了数场国际顶级女性艺术家的展览，包括2007年路易斯·布尔乔亚（Louise Bourgeois）、2012年草间弥生和2015年阿涅斯·马丁（Agnes Martin）的回顾展等，广受好评。</p>
+								
+									<p>Frances Morris, a postwar European and international expert in contemporary art, graduated from the University of Cambridge in the United Kingdom. She joined
+ the Tate Art Gallery in 1987 as director of exhibitions from 2000 to 2006 and has been director of international art collections since 2006. Maurice has organised 
+several exhibitions of top international women artists, including a retrospective by Louise Bourgeoisco, Louise Bourgeoisco, 2007, and Agnes Martin / Agnes Martinin, 
+2012, and so on.</p>
+
+								
+								<h5>Frances Morris</h5>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="view view-first"> 
+								<p><strong>伊娃·弗朗斯·吉尔伯特 （英国AA建筑学院的院长）</strong></p> 
+								<p>伊娃·弗朗斯·吉尔伯特女士自2010年起开始担任临街屋艺术与建筑事务所的首席策展人及执行董事；她是一位久负盛名的建筑师、策展人、教育家和演讲家，2018年，伊娃·弗朗斯·吉尔伯特以学院自1990年以来的最高票数在竞逐选举中当选英国AA建筑学院的院长。</p>
+								
+									<p>Chief Curator and Executive Director of New York’s Storefront for Art and Architecture since 2010, Franch i Gilabert is a celebrated architect, curator, educator
+ and lecturer. She is Selected as the New Director of the Architectural Association in 2018. On her election, she received the highest majority in a contested election since 1990.</p>
+
+								
+								<h5>Eva Franch i Gilabert</h5>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="view view-first"> 
+								<p><strong>建筑师，前OMA设计总监，Collective创始人兼设计总监，香港中文大学建筑系助理教授</strong></p> 
+								<p>Betty Ng女士作为COLLECTIVE国际建筑工作室的创始人兼设计总监，一直领导着工作室的创意方向与日常管理工作。她是荷兰注册建筑师，英国皇家建筑师学会特许建筑师，美国建筑师协会准会员。Betty Ng女士拥有康奈尔大学建筑学学士学位和哈佛大学建筑学硕士学位，曾任香港大学建筑系助理教授，并于近期担任香港中文大学建筑系助理教授。
+在创立COLLECTIVE以前，她曾在大都会建筑事务所鹿特丹分部担任设计总监，与普利兹克奖得主雷姆.库哈斯先生合作。Betty Ng在任期间曾带领团队完成了媒体巨头斯普林格集团在柏林的媒体总部设计方案，80000平米圣彼得堡赫米蒂奇博物馆艺术贮藏室，42公顷香港西九龙文娱艺术区大师计划等许多重要项目。
+</p>
+								
+									<p>Betty is the Founder and leads the creative direction and daily management at COLLECTIVE.
+Betty is a Registered Architect in the Netherlands, a RIBA Chartered Architect in the United Kingdom and an Associate member of the AIA, United States.
+Betty is currently an Assistant Professor of Architecture at the Chinese University of Hong Kong and previously at the University of Hong Kong. She holds an M. Arch Post Graduate Degree from Harvard University and a B. Arch Professional Degree from Cornell University.
+Prior setting up COLLECTIVE, Betty was Design Director at OMA Rotterdam with Pritzker Prize Laureate Rem Koolhaas, leading the winning proposal for the Axel Springer Media Headquarters in Berlin, the 80,000 m2 Hermitage Museum Art Repository in St. Petersburg and the 42 Hectares West Kowloon Cultural District Master Plan in Hong Kong among many projects.
+</p>
+
+								
+								<h5>Betty Ng</h5>
+							</div>
+						</div>
+						
+						<div class="tab-1 resp-tab-content">
+							<div class="view view-first"> 
+								<p><strong>伊塔洛·罗塔 （城市规划师，当代建筑设计大师，米兰新美术学院教授）</strong></p> 
+								<p>伊塔洛·罗塔先生毕业于米兰理工学院建筑专业。曾参与设计巴黎奥赛博物馆和蓬皮杜当代艺术中心；回到意大利后他在米兰成立自己的设计工作室，设计作品包括米兰900博物馆，米兰世博会科威特馆等。现任NABA米兰新美术学院的教授和Domus设计学院科技创意总监。</p>
+								
+									<p>Italo Rota graduate from architecture program of Polytechnic University of Milan. Prior setting up his own design studio, Italo Rota had participated in the design of the Pompidou Center for Contemporary Art and the Museed'Orsay in Paris. He currently become professor of NABA Milan New College of Fine Arts and creative director of Domus Design Institute of Science and Technology.</p>
+
+								
+								<h5>Italo Rota</h5>
+							</div>
+						</div>
+						
+					</div> 
+					<div class="clearfix"></div>
+				</div>	 
+			</div>	 
+		</div>
+	</div>					
+	<!-- //testimonial --> 
+	
+	<!-- footer -->
+		<div class="agileits-w3layouts-footer">
+			<div class="container">
+				<div class="col-md-4 w3-agile-grid">
+					<h5>About Us</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean bibendum urna non nisi ornare, condimentum iaculis ipsum blandit. Duis auctor vulputate metus nec luctus.</p>
+					<div class="footer-agileinfo-social">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 w3-agile-grid">
+					<h5>Recent Posts</h5>
+					<div class="w3ls-post-grids">
+						<div class="w3ls-post-grid">
+							<div class="w3ls-post-img">
+								<a href="#"><img src="images/g1.jpg" alt="" /></a>
+							</div>
+							<div class="w3ls-post-info">
+								<h6><a href="#" data-toggle="modal" data-target="#myModal">Donec vel sapien in erat</a></h6>
+								<p>Sept 24,2017</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3ls-post-grid">
+							<div class="w3ls-post-img">
+								<a href="#"><img src="images/g4.jpg" alt="" /></a>
+							</div>
+							<div class="w3ls-post-info">
+								<h6><a href="#" data-toggle="modal" data-target="#myModal">Donec vel sapien in erat</a></h6>
+								<p>Oct 25,2017</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3ls-post-grid">
+							<div class="w3ls-post-img">
+								<a href="#"><img src="images/g6.jpg" alt="" /></a>
+							</div>
+							<div class="w3ls-post-info">
+								<h6><a href="#" data-toggle="modal" data-target="#myModal">Donec vel sapien in erat</a></h6>
+								<p>Nov 06,2017</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 w3-agile-grid">
+					<h5>Address</h5>
+					<div class="w3-address">
+						<div class="w3-address-grid">
+							<div class="w3-address-left">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+							</div>
+							<div class="w3-address-right">
+								<h6>Phone Number</h6>
+								<p>+1 234 567 8901</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3-address-grid">
+							<div class="w3-address-left">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<div class="w3-address-right">
+								<h6>Email Address</h6>
+								<p>Email :<a href="mailto:example@email.com"> mail@example.com</a></p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="w3-address-grid">
+							<div class="w3-address-left">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+							</div>
+							<div class="w3-address-right">
+								<h6>Location</h6>
+								<p>Broome St, NY 10002, Canada. 
+								<span>Telephone : +00 111 222 3333</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<p>Copyright &copy; 2018.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			</div>
+		</div>
+	<!-- //footer -->
+	<!-- bootstrap-modal-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					振兴——工业遗存的呐喊
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<ul class="modal-body">
+						<li>工业遗存是城市发展的见证与印记，在新的时代背景和发展要求下，工业遗存如何转型发展，重焕活力，这不仅是一个企业的问题，更
+关乎产业的出路、城市的规划。</li>
+						<li>时间：5月11日（周五） 上午 10:00-12:30</li>
+    					<li>主持：张永和（建筑师，同济大学教授，前麻省理工建筑学院院长）</li>
+						<li>主旨发言：Frances Morris     弗朗西丝·莫里斯（泰特现代美术馆馆长）</li>
+						<li>
+          				<table border="0">
+						<tr>
+  							<th rowspan="3" valign="top">发言嘉宾：</th>
+  							<td>Eva Franch Gilabert      伊娃·弗朗斯·吉尔伯特（艺术建筑临街屋中心”馆长）</td>
+						</tr>
+						<tr>
+  							<td>Betty Ng   (建筑师，OMA，香港大学教授)</td>
+						</tr>
+						<tr>
+  							<td>Italo Rota     伊塔洛·罗塔（城市规划师，米兰新美术学院教授）</td>
+						</tr>
+						</table>
+					</li>
+			</div>
+		</div>
+	</div>
+	<div class="modal video-modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Crop Pic
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<div class="modal-body">
+						<img src="images/img4.jpg" alt=" " class="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal video-modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Crop Pic
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<div class="modal-body">
+						<img src="images/img4.jpg" alt=" " class="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal video-modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					Crop Pic
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<div class="modal-body">
+						<img src="images/img4.jpg" alt=" " class="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- ResponsiveTabs -->
+	<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	</script>
+	<!-- //ResponsiveTabs --> 
+
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>	
+</html>
